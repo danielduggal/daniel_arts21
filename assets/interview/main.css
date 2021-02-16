@@ -1,0 +1,75 @@
+
+body {
+    font-family: times, serif;
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+@font-face {
+  font-family: "GT-America-Mono-Regular";
+  src: url("../fonts/GT-America-Mono-Regular.eot");
+  src: url("../fonts/GT-America-Mono-Regular?#iefix") format('embedded-opentype'),
+       url("../fonts/GT-America-Mono-Regular.woff2") format('woff2'), 
+       url("../fonts/GT-America-Mono-Regular.woff") format('woff'),
+       url("../fonts/GT-America-Mono-Regular.ttf")  format('truetype');
+}
+
+@font-face {
+  font-family: "GT-America-Standard-Light";
+  src: url("../fonts/GT-America-Standard-Light.eot");
+  src: url("../fonts/GT-America-Standard-Light?#iefix") format('embedded-opentype'),
+       url("../fonts/GT-America-Standard-Light.woff2") format('woff2'), 
+       url("../fonts/GT-America-Standard-Light.woff") format('woff'),
+       url("../fonts/GT-America-Standard-Light.ttf")  format('truetype');
+}
+
+.versiononequestion {
+	font-family: times, Serif;
+  }
+
+.versiononeanswer {
+  font-family: times, Serif;
+  font-style: italic;
+  }
+
+.courier {
+  font-family: "courier";
+  font-size: 3vh;
+}
+
+.verdana {
+  font-family: "verdana";
+  font-size: 3vh;
+}
+
+.robotoquestion {
+  font-family: 'Roboto', sans-serif;
+}
+
+.robotoanswer {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  text-decoration: underline wavy blue
+}
+
+.lightopensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heavyopensans {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400px;
+font-style: italic;
+}
+
+.versionfivequestion {
+font-family: GT-America-Mono-Regular;
+font-weight: 450px;
+font-style: italic;
+}
+
+.versionfiveanswer {
+font-family: GT-America-Standard-Light;
+font-weight: 350px;
+}
