@@ -1,0 +1,130 @@
+body{
+	background-color: #D1D1D1;
+	margin: 1vh 10vw 0vh 10vw;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 10vw 35vw 10vw 10vw;
+	grid-auto-rows: auto;
+
+	grid-column-gap: 0px ;
+	grid-row-gap: 7px;
+	justify-content: center;
+	/*background-color: white;
+		height: 85vh;
+		justify-content: center;
+		align-content: space-between;
+		grid-template-rows: 3vh 5vh 5vh 5vh 25vh 5vh 5vh 25vh;
+	*/
+}
+
+.grid-title {
+	text-align: center;
+	background-color: #545454;
+	color: white;
+	border: 1px solid white;
+}
+
+.grid-activity {
+	text-align: left;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	background-color: white;
+	border: 1px solid #D1D1D1;
+}
+
+.grid-item, .grid-productive, .grid-media, .grid-tired, .grid-rushed, .grid-cold, .grid-relaxed, .grid-stress, .grid-work {
+	text-align: center;
+	background-color: white;
+	border: 1px solid #D1D1D1;
+}
+
+.grid-item:hover, .grid-activity:hover {
+  transition: all 1.5s ease;
+  font-size: 150%;
+  color: #4300FF;
+  background-color: #D6E6E9;
+}
+
+.grid-tired:hover {
+  transition: all 1.5s ease;
+  color: #4300FF;
+  background-color: #D6E6E9;
+  cursor: url(../hover/yawning-face.png), auto;
+}
+
+.grid-cold:hover {
+  transition: all 1.5s ease;
+  color: #4300FF;
+  background-color: #D6E6E9;
+  cursor: url(../hover/cold-face.png), auto;
+}
+
+.grid-relaxed:hover {
+  transition: all 1.5s ease;
+  color: #4300FF;
+  background-color: #D6E6E9;
+  cursor: url(../hover/vulcan-salute.png), auto;
+}
+
+.grid-stress:hover {
+  transition: all 1.5s ease;
+  font-size: 130%;
+  font-weight: bold;
+  color: #FB1414;
+  background-color: #FBF714;
+  cursor: url(../hover/expressionless-face.png), auto;
+}
+
+.grid-work:hover {
+  transition: all 1.5s ease;
+  font-size: 130%;
+  font-weight: bold;
+  color: #4300FF;
+  background-color: #D6E6E9;
+  cursor: url(../hover/nerd-face.png), auto;
+}
+
+.grid-media:hover {
+  transition: all 1.5s ease;
+  color: #4300FF;
+  background-color: #D6E6E9;
+}
+
+.grid-productive:hover{
+  background-image: url(../hover/cranking.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 0%;
+  height: 100px;
+}
+
+.grid-rushed:hover{
+  background-image: url(../hover/late.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 0%;
+}
+
+
+/* unvisited link */
+a:link, a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
