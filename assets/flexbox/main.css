@@ -1,0 +1,63 @@
+
+body{
+  background-color: #ffc0b4;
+  margin: 3vh 3vw 3vh 3vw;
+  text-align: center;
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 500px;
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: #b4ceff;
+    margin: 4vh 7vw 7vh 7vw;
+  }
+
+}
+
+div.stickyheader {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 9vh;
+  text-align: center;
+  background-color: #ffe5b4;
+	width: 83vw;
+  height: 15vh;
+  font-family: 'Lobster Two', cursive;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: 12vh 11vh 11vh 11vh 15vh;
+	grid-column-gap: 4vw;
+	grid-row-gap: 4vh;
+  font-family: 'Shippori Mincho', serif;
+
+}
+
+.grid-title {
+	text-align: center;
+	background-color: #545454;
+	color: white;
+  font-size: 5vh;
+	border: 3px solid white;
+  font-weight: 800px;
+}
+
+.grid-time {
+  grid-row: 2 / 6;
+  text-align: center;
+  background-color: white;
+  font-size: 4vh;
+  border: 1px solid #D1D1D1;
+}
+
+.grid-item {
+	text-align: center;
+	background-color: white;
+	font-size: 4vh;
+  border: 1px solid #D1D1D1;
+  font-weight: 500px;
+}
