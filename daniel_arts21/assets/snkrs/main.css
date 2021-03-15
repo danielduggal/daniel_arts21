@@ -1,0 +1,57 @@
+@font-face {
+font-family: "nikestyle";
+src: url("../snkrs/Futura.otf") format("opentype");
+}
+
+body{
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=54884), auto;
+  margin: 3vh 3vw 3vh 3vw;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  font-family: 'nikestyle', serif;
+  font-size: 4vh;
+}
+
+div.nikestyleheader {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  top: 1vh;
+  width: 70vw;
+  height: 10vh;
+  background-color: white;
+  text-align: center;
+  font-size: 5vh;
+  font-family: nikestyle;
+  color: black;
+  display: inline-block;
+}
+
+div.snkrsstyleheader {
+  font-style: italic;
+  font-size: 6.5vh;
+  font-family: nikestyle;
+  color: #fb0618;
+  display: inline-block;
+
+}
+
+.footer {
+  color: blue;
+}
+
+.footer:visited {
+  color: blue;
+}
+
+.footer:active {
+  color: blue;
+}
+
+.footer:hover {
+  transition: all 1.5s ease;
+  font-size: 6.5vh;
+  color: #fb0618;
+}
