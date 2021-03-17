@@ -10,7 +10,7 @@ src: url("../snkrs/FuturaBT-LightCondensed.woff") format("woff");
 
 body{
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=54884), auto;
-  margin: 3vh 15vw 3vh 15vw;
+  margin: 3vh 20vw 17vh 20vw;
   padding: 10px;
   align-items: center;
   text-align: center;
@@ -45,6 +45,33 @@ div.snkrsstyleheader {
 
 }
 
+
+@keyframes popupfade {
+  0% {
+    color: white;
+  }
+  9% {
+    color: white;
+  }
+ 10% {
+    color: black;
+  }
+  17% {
+    color: black;
+  } 
+  18% {
+    color: white;
+  } 
+  100% {
+   color: white;
+  }
+}
+
+.popup {
+position: absoloute;
+animation: popupfade 46s ease-in infinite;
+}
+
 .footer, .footer:visited {
   color: blue;
   text-decoration: none;
@@ -55,4 +82,59 @@ div.snkrsstyleheader {
   font-size: 6vh;
   color: #fb0618;
   text-decoration: underline;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 6vh;
+  font-family: nikestyle;
+  color: black;
+}
+
+@keyframes logoSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes colorSwap {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #F8B147;
+  }
+}
+
+@keyframes fade {
+  0% {
+    color: black;
+  }
+ 20% {
+    color: white;
+  } 
+  93% {
+    color: white;
+  } 
+  100% {
+   color: black;
+  }
+}
+
+#logo {
+  animation: logoSpin 10s ease-out infinite;
+  animation-delay: 2s;
+}
+
+#logo path {
+  animation: colorSwap 5s ease-in infinite alternate;
+  animation-delay: 2s;
+}
+
+.tagline {
+animation-delay: 2.0s;
+animation: fade 10.0s infinite;
 }
