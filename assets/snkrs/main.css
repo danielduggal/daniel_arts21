@@ -8,7 +8,7 @@ font-family: "Futura LtCn BT";
 src: url("../snkrs/FuturaBT-LightCondensed.woff") format("woff");
 }
 
-body{
+body {
   cursor: url(http://www.rw-designer.com/cursor-extern.php?id=54884), auto;
   margin: 3vh 20vw 17vh 20vw;
   padding: 10px;
@@ -30,7 +30,7 @@ div.nikestyleheader {
   height: 10vh;
   background-color: white;
   text-align: center;
-  font-size: 6vh;
+  font-size: 4vh;
   font-family: nikestyle;
   color: black;
   display: inline-block;
@@ -38,28 +38,27 @@ div.nikestyleheader {
 
 div.snkrsstyleheader {
   font-style: italic;
-  font-size: 7.5vh;
+  font-size: 6vh;
   font-family: nikestyle;
   color: #fb0618;
   display: inline-block;
 
 }
 
-
-@keyframes popupfade {
+@keyframes lagpopupfade {
   0% {
     color: white;
   }
   9% {
     color: white;
   }
- 10% {
-    color: black;
+ 11% {
+    color: red;
   }
   17% {
-    color: black;
+    color: red;
   } 
-  18% {
+  19% {
     color: white;
   } 
   100% {
@@ -67,9 +66,119 @@ div.snkrsstyleheader {
   }
 }
 
-.popup {
-position: absoloute;
-animation: popupfade 46s ease-in infinite;
+.lagpopup {
+position: absolute;
+top: 1150px;
+left: 426px;
+animation: lagpopupfade 46s ease-in infinite;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+.buzz {
+font-size: 5vh;
+font-family: nikestyle;
+color: black;
+animation: shake .6s infinite alternate;
+}
+
+
+@keyframes reactionpopupfade {
+  0% {
+    color: white;
+  }
+ 50% {
+    color: red;
+  }
+  80% {
+    color: red;
+  }
+  100% {
+   color: white;
+  }
+}
+
+.reaction1 {
+position: absolute;
+top: 7300px;
+left: 910px;
+animation: reactionpopupfade 3s ease-in infinite;
+}
+
+.reaction2 {
+position: absolute;
+top: 7375px;
+left: 350px;
+animation: reactionpopupfade 2s ease-in infinite;
+}
+
+.reaction3 {
+position: absolute;
+top: 7175px;
+left: 450px;
+animation: reactionpopupfade 1.5s ease-in infinite;
+}
+
+.reaction4 {
+position: absolute;
+top: 7475px;
+left: 500px;
+animation: reactionpopupfade 1s ease-in infinite;
+}
+
+.reaction5 {
+position: absolute;
+top: 7525px;
+left: 1000px;
+animation: reactionpopupfade 1s ease-in infinite;
+}
+
+
+
+@keyframes answerpopupfade {
+  0% {
+    color: white;
+  }
+ 20% {
+    color: red;
+  }
+  60% {
+    color: red;
+  }
+  80% {
+    color: white;
+  }
+  100% {
+   color: white;
+  }
+}
+
+.answer1 {
+position: absolute;
+top: 9970px;
+left: 910px;
+animation: answerpopupfade 10s ease-in infinite;
+}
+
+.answer2 {
+position: absolute;
+top: 10098px;
+left: 910px;
+animation: answerpopupfade 5s ease-in infinite;
+}
+
+.answer3 {
+position: absolute;
+top: 10228px;
+left: 910px;
+animation: answerpopupfade 2.5s ease-in infinite;
 }
 
 .footer, .footer:visited {
