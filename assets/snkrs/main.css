@@ -47,22 +47,22 @@ div.snkrsstyleheader {
 
 @keyframes lagpopupfade {
   0% {
-    color: white;
+    opacity: 0;
   }
   9% {
-    color: white;
+    opacity: 0;
   }
  11% {
-    color: red;
+    opacity: 1;
   }
   17% {
-    color: red;
+    opacity: 1;
   } 
   19% {
-    color: white;
+    opacity: 0;
   } 
   100% {
-   color: white;
+   opacity: 0;
   }
 }
 
@@ -71,6 +71,7 @@ position: absolute;
 top: 1150px;
 left: 426px;
 animation: lagpopupfade 46s ease-in infinite;
+color: #F8B147;
 }
 
 @keyframes shake {
@@ -92,16 +93,16 @@ animation: shake .6s infinite alternate;
 
 @keyframes reactionpopupfade {
   0% {
-    color: white;
+  opacity: 0;
   }
- 50% {
-    color: red;
+ 20% {
+   opacity: 1;
   }
   80% {
-    color: red;
+   opacity: 1;
   }
   100% {
-   color: white;
+   opacity: 0;
   }
 }
 
@@ -110,75 +111,106 @@ position: absolute;
 top: 7300px;
 left: 910px;
 animation: reactionpopupfade 3s ease-in infinite;
+color: #F8B147;
 }
 
 .reaction2 {
 position: absolute;
 top: 7375px;
 left: 350px;
-animation: reactionpopupfade 2s ease-in infinite;
+animation: reactionpopupfade 3.5s ease-in infinite;
+color: #F8B147;
 }
 
 .reaction3 {
 position: absolute;
 top: 7175px;
 left: 450px;
-animation: reactionpopupfade 1.5s ease-in infinite;
+animation: reactionpopupfade 5s ease-in infinite;
+color: green;
 }
 
 .reaction4 {
 position: absolute;
 top: 7475px;
 left: 500px;
-animation: reactionpopupfade 1s ease-in infinite;
+animation: reactionpopupfade 3.75s ease-in infinite;
+color: green;
 }
 
 .reaction5 {
 position: absolute;
 top: 7525px;
 left: 1000px;
-animation: reactionpopupfade 1s ease-in infinite;
+animation: reactionpopupfade 4s ease-in infinite;
+color: green;
 }
 
+.reaction6 {
+position: absolute;
+top: 7200px;
+left: 1020px;
+animation: reactionpopupfade 3.25s ease-in infinite;
+}
+
+.reaction7 {
+position: absolute;
+top: 7400px;
+left: 875px;
+animation: reactionpopupfade 4.75s ease-in infinite;
+}
+
+.reaction8 {
+position: absolute;
+top: 7225px;
+left: 550px;
+animation: reactionpopupfade 4.25s ease-in infinite;
+}
 
 
 @keyframes answerpopupfade {
   0% {
-    color: white;
+    opacity: 0;
   }
  20% {
-    color: red;
+    opacity: 1;
   }
   60% {
-    color: red;
+    opacity: 1;
   }
   80% {
-    color: white;
+    opacity: 1;
   }
   100% {
-   color: white;
+   opacity: 0;
   }
 }
 
 .answer1 {
 position: absolute;
-top: 9970px;
+top: 10555px;
 left: 910px;
-animation: answerpopupfade 10s ease-in infinite;
+animation: answerpopupfade 3s ease-in infinite;
+animation-delay: 0.33333s;
+color: #F8B147;
 }
 
 .answer2 {
 position: absolute;
-top: 10098px;
+top: 10685px;
 left: 910px;
-animation: answerpopupfade 5s ease-in infinite;
+animation: answerpopupfade 4s ease-in infinite;
+animation-delay: 1s;
+color: #F8B147;
 }
 
 .answer3 {
 position: absolute;
-top: 10228px;
+top: 10815px;
 left: 910px;
-animation: answerpopupfade 2.5s ease-in infinite;
+animation: answerpopupfade 10s ease-in infinite;
+animation-delay: 2s;
+color: green;
 }
 
 .footer, .footer:visited {

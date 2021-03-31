@@ -1,0 +1,36 @@
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.container {
+      text-align: center;
+      display: block;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-button, .hide-button {
+  border: 2px solid;
+  font-size: 25px;
+  width: 20vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  cursor:pointer;
+  margin: auto;
+}
+
+.show-button:hover, .hide-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+    padding: 15px;
+    background: #e699ff;
+    width: 40vw;
+  }
