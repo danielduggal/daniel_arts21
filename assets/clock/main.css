@@ -1,0 +1,50 @@
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  font-family: 'Audiowide', cursive;
+  color: #003B00;
+}
+
+.container {
+  text-align: left;
+  display:inline-block;
+  float:left;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  border-style: solid;
+  border-color: #008F11;
+  color: #003B00;
+  width: 40vw;
+}
+
+.time-measure {
+  height: 8vh;
+  width: 1vw;
+  background: #00FF41;
+}
+
+
+/*
+.show-button, .hide-button {
+  border: 2px solid;
+  font-size: 25px;
+  width: 20vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  cursor:pointer;
+  margin: auto;
+}
+
+.show-button:hover, .hide-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+p {
+    padding: 15px;
+    background: #e699ff;
+    width: 40vw;
+  }
+*/
